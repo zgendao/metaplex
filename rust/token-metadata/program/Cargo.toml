@@ -16,7 +16,7 @@ test-bpf = []
 num-derive = "0.3"
 arrayref = "0.3.6"
 num-traits = "0.2"
-solana-program = { git = "https://github.com/zgendao/solana.git", tag = "v1.9.0-zgen" } #"1.9.0"
+solana-program = "1.9.0"
 metaplex-token-vault = { path = "../../token-vault/program", features = [ "no-entrypoint" ], version="0.0.1" }
 spl-token = { git = "https://github.com/zgendao/solana-program-library.git", features = [ "no-entrypoint" ] }
 thiserror = "1.0"
