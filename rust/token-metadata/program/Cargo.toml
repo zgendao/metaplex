@@ -1,11 +1,11 @@
 [package]
-name = "metaplex-token-metadata"
-version = "0.0.1"
-description = "Metaplex Metadata"
-authors = ["Metaplex Maintainers <maintainers@metaplex.com>"]
-repository = "https://github.com/metaplex-foundation/metaplex"
-license = "Apache-2.0"
-edition = "2018"
+name = "agsol-token-metadata"
+version = "0.0.0-alpha"
+description = "Agora's fork of Metaplex Metadata"
+authors = ["Agora DAO <mark@gold.xyz"]
+repository = "https://github.com/zgendao/metaplex"
+license = "MIT"
+edition = "2021"
 exclude = ["js/**"]
 
 [features]
@@ -23,8 +23,8 @@ thiserror = "1.0"
 borsh = "0.9.1"
 
 [dev-dependencies]
-solana-sdk = "1.7.11"
-solana-program-test = "1.7.11"
+solana-sdk = "1.9.0"
+solana-program-test = "1.9.0"
 
 [lib]
 crate-type = ["cdylib", "lib"]
