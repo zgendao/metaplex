@@ -2,6 +2,11 @@
 title: Token Metadata Program
 ---
 
+## Disclaimer
+This is a fork of Metaplex's metadata program, where the only changes made to
+the code were bumping some solana and spl dependencies in order to be able to
+compile the library to a wasm target.
+
 ## Background
 
 Solana's programming model and the definitions of the Solana terms used in this
